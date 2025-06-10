@@ -1,0 +1,15 @@
+public class Kendaraan {
+    String platNomor;
+    String tipe;
+    String merk;
+
+    public Kendaraan(String plat, String tipe, String merk) {
+        platNomor = plat;
+        this.tipe = tipe;
+        this.merk = merk;
+    }
+
+    public void tampilkanInformasi() {
+        
+    }
+}
